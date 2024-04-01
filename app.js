@@ -36,7 +36,6 @@ function receiveData(){
 
 receiveData()
 
-// *************Delete Laiba From Zindagi************
 function deleteLaiba(){
     firebase.database().ref("Student-Details/-NjMPmxWKPlKxHlznkeN").remove()
 }
